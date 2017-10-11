@@ -4,3 +4,14 @@ body {
   width: 800px;
   margin: 0 auto;
 }
+
+.image {
+  width: 30px;
+  height: 30px;
+}
+@media (max-width: 640px) {
+  .image {
+    width: 60px;
+    height: 60px;
+  }
+}
